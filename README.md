@@ -29,6 +29,9 @@ select sql_text,b.STATE,b.STATUS,b.* from v$sql a,v$session b where a.SQL_ID=b.P
 
 ###2.2、死锁-oracle日志
 拿oracle日志
+
+死锁日志开始的标记
+
   Global Wait-For-Graph(WFG) for GES Deadlock ID=[20_0_287]
 ------------------------------------------------------------------------
                        Victim : (instance=1, lock=0x1ede59ac8)
