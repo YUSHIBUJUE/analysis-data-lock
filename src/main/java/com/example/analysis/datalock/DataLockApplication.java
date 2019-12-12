@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@MapperScan("com.neo.mapper")
+@MapperScan("com.example.analysis.datalock.mapper")
 @EnableTransactionManagement
 public class DataLockApplication {
 

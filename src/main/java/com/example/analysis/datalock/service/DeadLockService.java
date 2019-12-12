@@ -10,6 +10,8 @@ public interface DeadLockService {
      * 模拟数据库死锁
      */
     void deadLockTest();
+
+    void deadLockTest2();
     /**
      * 模拟嵌套事务逻辑死锁
      */
